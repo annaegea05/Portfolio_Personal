@@ -49,6 +49,7 @@ h2 {
     opacity: 0.7;
     margin-bottom: 1.5rem;
 }
+
 #header h1 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -59,7 +60,7 @@ h2 {
     margin: 1.5rem;
 }
 
-.sub-titulo{
+.sub-titulo {
     font-family: 'DM Mono', monospace;
     font-size: 15px;
     letter-spacing: 0.08em;
@@ -160,30 +161,25 @@ h2 {
     min-height: 700px;
 }
 
-#contacto {
-    min-height: 600px;
-}
-
-
 /* EDUCACIÓN Y PROGRAMAS */
 
-.educacion-programas-div{
+.educacion-programas-div {
     display: flex;
     align-items: center;
     margin-top: 1.5rem;
 }
 
-.educacion-container{
+.educacion-container {
     padding-right: 5rem;
 }
 
-.educacion-item h3{
+.educacion-item h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
 }
 
-.educacion-item p{
+.educacion-item p {
     font-family: 'DM Mono', monospace;
     font-size: 14px;
     line-height: 1.9;
@@ -191,32 +187,33 @@ h2 {
     max-width: 540px;
 }
 
-.logo{
+.logo {
     width: 90px;
     height: auto;
 }
 
-.programas-container{
+.programas-container {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.programas-item{
+.programas-item {
     flex-shrink: 0;
 }
 
 
 /*PROYECTO*/
-.proyecto-container{
+.proyecto-container {
     margin-top: 1.5rem;
 }
-.proyecto-div{
+
+.proyecto-div {
     display: flex;
     align-items: center;
 }
 
-.link-p{
+.link-p {
     font-family: 'DM Mono', monospace;
     font-size: 15px;
     letter-spacing: 0.18em;
@@ -229,6 +226,53 @@ h2 {
     transition: 0.3s ease;
 }
 
+/* FOOTER */
+#footer {
+    background: #1a365d;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+#footer p{
+    font-size: medium;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer #contacto {
+    margin-top: 1rem;
+}
+
+.red-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.log-red-social img {
+    width: 40px;
+    height: auto;
+    display: block;
+}
+
+.red-social-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
 
 
 
@@ -252,7 +296,7 @@ h2 {
     justify-content: center;
     gap: 2rem;
 }
- 
+
 .volver {
     font-family: 'DM Mono', monospace;
     font-size: 14px;
@@ -262,11 +306,11 @@ h2 {
     text-decoration: none;
     align-self: flex-start;
 }
- 
+
 .volver:hover {
     text-decoration: underline;
 }
- 
+
 .proyecto-titulo {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -274,14 +318,14 @@ h2 {
     color: #1a365d;
     line-height: 1;
 }
- 
+
 .proyecto-texto {
     font-family: 'DM Mono', monospace;
     font-size: 15px;
     line-height: 1.9;
     color: #666;
 }
- 
+
 .proyecto-link {
     font-family: 'DM Mono', monospace;
     font-size: 15px;
@@ -294,12 +338,12 @@ h2 {
     align-self: flex-start;
     transition: 0.3s ease;
 }
- 
+
 .proyecto-link:hover {
     background: #1a365d;
     color: #fff;
 }
- 
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
@@ -337,10 +381,21 @@ h2 {
         gap: 2rem;
     }
 
-    #sobre-mi { min-height: 500px; }
-    #educacion-programas { min-height: 500px; }
-    #proyectos { min-height: 500px; }
-    #contacto  { min-height: 300px; }
+    #sobre-mi {
+        min-height: 500px;
+    }
+
+    #educacion-programas {
+        min-height: 500px;
+    }
+
+    #proyectos {
+        min-height: 500px;
+    }
+
+    #contacto {
+        min-height: 300px;
+    }
 }
 
 /* SEPARADOR papel rasgado */
