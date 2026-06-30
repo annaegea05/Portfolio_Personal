@@ -31,7 +31,7 @@
     max-width: 50%;
 }
 
-.hero-tag {
+.titulo-1 {
     font-family: 'DM Mono', monospace;
     font-size: 15px;
     letter-spacing: 0.22em;
@@ -40,7 +40,6 @@
     opacity: 0.7;
     margin-bottom: 1.5rem;
 }
-
 #header h1 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -48,10 +47,10 @@
     line-height: 0.95;
     color: #1a365d;
     letter-spacing: 0;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem;
 }
 
-.hero-sub {
+.sub-titulo{
     font-family: 'DM Mono', monospace;
     font-size: 15px;
     letter-spacing: 0.08em;
@@ -59,6 +58,7 @@
     color: #1a365d;
     max-width: 260px;
     margin-bottom: 2rem;
+    margin-top: 1.7rem;
 }
 
 .hero-cta {
@@ -103,38 +103,6 @@
     color: #1a365d;
 }
 
-/* SECCIONES — alto mínimo fijo por sección */
-.section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 80px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#sobre-mi {
-    min-height: 600px;
-}
-
-#educacion-programas{
-    min-height: 600px;
-}
-
-#proyectos {
-    min-height: 700px;
-}
-
-#contacto {
-    min-height: 400px;
-}
-
-.section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
 /* SOBRE MÍ */
 .sobre-mi-inner {
     display: flex;
@@ -168,12 +136,39 @@
     max-width: 540px;
 }
 
+/* SECCIONES — alto mínimo fijo por sección */
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#sobre-mi {
+    min-height: 600px;
+}
+
+#educacion-programas {
+    min-height: 600px;
+}
+
+#proyectos {
+    min-height: 600px;
+}
+
+#contacto {
+    min-height: 600px;
+}
+
+
 /* EDUCACIÓN Y PROGRAMAS */
 .educacion-programas-div{
     display: flex;
     align-items: center;
-    gap: 5rem;
 }
+
 .logo{
     width: 90px;
     height: auto;
