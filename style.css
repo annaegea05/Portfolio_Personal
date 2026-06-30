@@ -18,6 +18,9 @@
 
 #header .overlay {
     position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 1;
 }
 
 /* TEXTO HERO */
@@ -114,6 +117,10 @@
     min-height: 600px;
 }
 
+#educacion-programas{
+    min-height: 600px;
+}
+
 #proyectos {
     min-height: 700px;
 }
@@ -161,6 +168,32 @@
     max-width: 540px;
 }
 
+/* EDUCACIÓN Y PROGRAMAS */
+.educacion-programas-div{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.logo{
+    width: 90px;
+    height: auto;
+}
+
+.educacion-item{
+    margin-bottom: 2rem;
+}
+
+.programas-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.programas-item{
+    flex-shrink: 0;
+}
+
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .hero-text {
@@ -191,7 +224,14 @@
         width: 200px;
     }
 
+    .educacion-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
     #sobre-mi { min-height: 500px; }
+    #educacion-programas { min-height: 500px; }
     #proyectos { min-height: 500px; }
     #contacto  { min-height: 300px; }
 }
